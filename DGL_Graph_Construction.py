@@ -78,3 +78,19 @@ print(sg1.edata['a'])
 print(sg2.ndata['x'])
 # The original edge feature of each node in sg2
 print(sg2.edata['a'])
+
+newg = dgl.add_reverse_edges(g)
+newg.edges()
+
+" Loading and Saving Graphs "
+# Save graphs
+dgl.save_graphs('graph.dgl', g)
+dgl.save_graphs('graphs.dgl', [g, sg1, sg2])
+
+# Load graphs
+(g,), _ = dgl.load_graphs('graph.dgl')
+print(g)
+(g, sg1, sg2), _ = dgl.load_graphs('graphs.dgl')
+print(g)
+print(sg1)
+print(sg2)
