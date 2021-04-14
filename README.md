@@ -3,4 +3,4 @@
 ## Requirements
 
 ## Acknowledgements
-Adapted from the official DGL documentation [here](ttps://docs.dgl.ai/tutorials/blitz/index.html)
+Adapted from the official DGL documentation [here](https://docs.dgl.ai/tutorials/blitz/index.html)
