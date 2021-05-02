@@ -12,13 +12,18 @@ In this repo, you'll find code for:
 * Making your own Graph Dataset 
 
 
-## Requirements
-1. Install PyTorch from [here](https://pytorch.org/)
-2. Run the following command to install additional dependencies:
-``` 
-pip install -r requirements.txt 
-```
-You also need to download the Deep Graph Library (DGL) from [here](https://docs.dgl.ai/install/index.html). It works fine with Ubunut 20.04.
+## Getting Started
+1.  Clone repo: `git clone https://github.com/HusseinLezzaik/Graph-Neural-Networks.git`
+2.  Install dependencies:
+    ```
+    conda create -n graph-nets python=3.7
+    conda activate graph-nets
+    pip install -r requirements.txt
+    ```
+3.  You also need to download the Deep Graph Library (DGL) from [here](https://docs.dgl.ai/install/index.html). It works fine with Ubunut 20.04.
 
 ## Acknowledgements
 Adapted from the official DGL documentation [here](https://docs.dgl.ai/tutorials/blitz/index.html).
+
+## Contact
+* Hussein Lezzaik : hussein dot lezzaik at gmail dot com
