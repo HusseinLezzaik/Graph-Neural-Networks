@@ -3,13 +3,15 @@
 ## Introduction
 Graphs express entities (nodes) along with their relations (edges), and both nodes and edges can be typed (e.g., `"user"` and `"item"` are two different types of nodes). DGL provides a graph-centric programming abstraction with its core data structure – `DGLGraph`. `DGLGraph` provides its interface to handle a graph’s structure, its node/edge features, and the resulting computations that can be performed using these components.
 
+## Overview of the Repository
 In this repo, you'll find code for:
-* Node Classification with DGL
-* Representing a Graph with DGL
-* Building your own GNN module
-* Link Prediction using GNNs
-* Training a GNN for Graph Classification
-* Making your own Graph Dataset 
+
+* `Build_GNN_module.py`: code for DGL’s message passing APIs, and GraphSAGE convolution module.
+* `DGL_Graph_Construction.py`: code for graph construction from scratch.
+* `Link_Prediction_Using_GNNs.py`: code for link prediction using dgl.
+* `Make_your_own_dataset.py`: code for creating a cataset for node classification or link prediction from csv.
+* `Node_Classification_with_DGL.py`: code for building a GNN for semi-supervised node classification.
+* `Training_GNN_for_Graph_Classfication.py`: code for training gnn model for graph classification.
 
 
 ## Getting Started
