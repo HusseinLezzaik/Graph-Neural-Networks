@@ -18,7 +18,7 @@ In this repo, you'll find code for:
 1.  Clone repo: `git clone https://github.com/HusseinLezzaik/Graph-Neural-Networks.git`
 2.  Install dependencies:
     ```
-    conda create -n graph-nets python=3.7
+    conda create -n graph-nets python=3.8
     conda activate graph-nets
     pip install -r requirements.txt
     ```
